@@ -1,0 +1,1271 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/all.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+    
+    <script src="./js/popper.min.js"></script>
+    <script src="./js/jquery-3.7.1.min.js"></script>
+    <script src="./js/bootstrap.min.js"></script>
+    <title>Mobile Store</title>
+</head>
+<body>
+    
+    <header>
+        <nav class="navbar  navbar-expand-lg navbar-dark bg-dark fixed-top ">
+            <div class="container-fluid"> 
+            <a class="navbar-brand text-light" href="#">Mobile Store</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    
+                <ul class="navbar-nav m-auto ">
+    
+                <li class="nav-item ">
+                    <a class="nav-link " href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link " href="#">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link " href="#">Content</a>
+                </li>
+                </ul>
+                <div id="Add-icon" class="icon  ">
+                    <div id="count" class="counter text-light mx-5">cart</div>
+                    
+                </div>
+
+                <form class="d-flex" role="search">
+                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success text-light" type="submit">Search</button>
+                </form>  
+            </div> 
+            </div>
+        </nav>
+        <div class="header">
+                <div class="div">
+                    <h2>Mobile Store</h2>
+                    <p>This store is one of the largest mobile stores in the Middle East 
+                    <br> and there are all kinds of mobiles and accessories for all brands.</p>
+                    
+                    </div>
+                        <div class="about-image ">
+                            <img class="img-fluid" src="./New folder/head.webp" alt="photo" >
+                        </div>
+                </div>
+            </div>
+    </header>
+
+
+
+    <div class="container">
+        <div class="menutabs d-flex justify-content-center  align-center">
+            <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+                <li class="nav-item" role="presentation">
+                <button class="nav-link active" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home" aria-selected="true">Mobile</button>
+                </li>
+                <li class="nav-item" role="presentation">
+                <button class="nav-link" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile" aria-selected="false" >Tablet</button>
+                </li>
+                <li class="nav-item" role="presentation">
+                <button class="nav-link" id="pills-contact-tab" data-bs-toggle="pill" data-bs-target="#pills-contact" type="button" role="tab" aria-controls="pills-contact" aria-selected="false">Accessories</button>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link" id="pills-disabled-tab" data-bs-toggle="pill" data-bs-target="#pills-disabled" type="button" role="tab" aria-controls="pills-contact" aria-selected="false">Smart Watch </button>
+                </li>
+            </ul>
+    </div>
+    <div class="tab-content" id="pills-tabContent">
+        <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab" tabindex="0">
+            <div class="container text-center ">
+                <div class="row">
+                    <div class="col-xl-12 text-bg-danger rounded-5">
+                        <div class="head" >
+                            <h2>Iphone</h2>
+                        </div>
+                    </div>
+                    <div class="col-xl-3">
+                        <div class="menu text-bg-dark rounded-5 my-3">
+                            <div class="imge">
+                                <img src="./New folder/17.webp" alt="" class="img-fluid">
+                                <h2>iphone 11</h2>
+                                <div class="price d-flex justify-content-around align-center">
+                                    <p>price</p>
+                                    <span>12000</span>
+                                </div> 
+                                <span class="btn1">
+                                <button id="addcount" class="btn3 ">Add To Cart</button>
+                                <button class="btn2 ">Buy Now</button>
+                                </span>
+                                
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-3">
+                        <div class="menu text-bg-dark rounded-5 my-3">
+                            <div class="imge">
+                                <img src="./New folder/12.webp" alt="" class="img-fluid">
+                                <h2>iphone 12</h2>
+                                <div class="price d-flex justify-content-around align-center">
+                                    <p>price</p>
+                                    <span>14000</span>
+                                </div> 
+                                <span class="btn1">
+                                    <button id="addcount" class="btn3 ">Add To Cart</button>
+                                    <button class="btn2 ">Buy Now</button>
+                                    </span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-3">
+                        <div class="menu text-bg-dark rounded-5 my-3">
+                            <div class="imge">
+                                <img src="./New folder/iphone-11-pro-max-390759.webp" alt="" class="img-fluid">
+                                <h2>iphone 11 pro max</h2>
+                                <div class="price d-flex justify-content-around align-center">
+                                    <p>price</p>
+                                    <span>20000</span>
+                                </div> 
+                                <span class="btn1">
+                                    <button id="addcount" class="btn3 ">Add To Cart</button>
+                                <button class="btn2 ">Buy Now</button>
+                                </span>
+                                
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-3">
+                        <div class="menu text-bg-dark rounded-5 my-3">
+                            <div class="imge">
+                                <img src="./New folder/iphone-11-251021_600x (2).webp" alt="" class="img-fluid">
+                                <h2>iphone 11</h2>
+                                <div class="price d-flex justify-content-around align-center">
+                                    <p>price</p>
+                                    <span>12000</span>
+                                </div> 
+                                <span class="btn1">
+                                <button id="addcount" class="btn3 ">Add To Cart</button>
+                                <button class="btn2 ">Buy Now</button>
+                                </span>
+                                
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-3">
+                        <div class="menu text-bg-dark rounded-5 my-3">
+                            <div class="imge">
+                                <img src="./New folder/15.png" alt="" class="img-fluid">
+                                <h2>iphone 15 pro</h2>
+                                <div class="price d-flex justify-content-around align-center">
+                                    <p>price</p>
+                                    <span>50000</span>
+                                </div> 
+                                <span class="btn1">
+                                    <button id="addcount" class="btn3 ">Add To Cart</button>
+                                <button class="btn2 ">Buy Now</button>
+                                </span>
+                                
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-3">
+                        <div class="menu text-bg-dark rounded-5 my-3">
+                            <div class="imge">
+                                <img src="./New folder/13.png" alt="" class="img-fluid">
+                                <h2>iphone 13</h2>
+                                <div class="price d-flex justify-content-around align-center">
+                                    <p>price</p>
+                                    <span>22000</span>
+                                </div> 
+                                <span class="btn1">
+                                    <button id="addcount" class="btn3 ">Add To Cart</button>
+                                <button class="btn2 ">Buy Now</button>
+                                </span>
+                                
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-3">
+                        <div class="menu text-bg-dark rounded-5 my-3">
+                            <div class="imge">
+                                <img src="./New folder/16.jpg" alt="" class="img-fluid">
+                                <h2>iphone 16</h2>
+                                <div class="price d-flex justify-content-around align-center">
+                                    <p>price</p>
+                                    <span>50000</span>
+                                </div> 
+                                <span class="btn1">
+                                    <button id="addcount" class="btn3 ">Add To Cart</button>
+                                <button class="btn2 ">Buy Now</button>
+                                </span>
+                                
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-3">
+                        <div class="menu text-bg-dark rounded-5 my-3">
+                            <div class="imge">
+                                <img src="./New folder/12.webp" alt="" class="img-fluid">
+                                <h2>iphone 12</h2>
+                                <div class="price d-flex justify-content-around align-center">
+                                    <p>price</p>
+                                    <span>12000</span>
+                                </div> 
+                                <span class="btn1">
+                                    <button id="addcount" class="btn3 ">Add To Cart</button>
+                                <button class="btn2 ">Buy Now</button>
+                                </span>
+                                
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-xl-12 text-bg-danger rounded-5">
+                        <div class="head" >
+                            <h2>Samsung</h2>
+                        </div>
+                    </div>
+                    <div class="col-xl-3">
+                        <div class="menu text-bg-dark rounded-5 my-3">
+                            <div class="imge">
+                                <img src="./New folder/samsung-a73-8-256-awesome-mint-1-removebg-preview.png" alt="" class="img-fluid">
+                                <h2>samsung a73</h2>
+                                <div class="price d-flex justify-content-around align-center">
+                                    <p>price</p>
+                                    <span>12000</span>
+                                </div> 
+                                <span class="btn1">
+                                <button id="addcount" class="btn3 ">Add To Cart</button>
+                                <button class="btn2 ">Buy Now</button>
+                                </span>
+                                
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-3">
+                        <div class="menu text-bg-dark rounded-5 my-3">
+                            <div class="imge">
+                                <img src="./New folder/samsung-galaxy-a55-Navypng.webp" alt="" class="img-fluid">
+                                <h2>samsung a55</h2>
+                                <div class="price d-flex justify-content-around align-center">
+                                    <p>price</p>
+                                    <span>10000</span>
+                                </div> 
+                                <span class="btn1">
+                                <button id="addcount" class="btn3 ">Add To Cart</button>
+                                <button class="btn2 ">Buy Now</button>
+                                </span>
+                                
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-3">
+                        <div class="menu text-bg-dark rounded-5 my-3">
+                            <div class="imge">
+                                <img src="./New folder/samsung-z-fold-3-f926b-5g-dual-sim-12gb-512gb-verde-prev-ui.png" alt="" class="img-fluid">
+                                <h2>samsung z </h2>
+                                <div class="price d-flex justify-content-around align-center">
+                                    <p>price</p>
+                                    <span>44000</span>
+                                </div> 
+                                <span class="btn1">
+                                <button id="addcount" class="btn3 ">Add To Cart</button>
+                                <button class="btn2 ">Buy Now</button>
+                                </span>
+                                
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-3">
+                        <div class="menu text-bg-dark rounded-5 my-3">
+                            <div class="imge">
+                                <img src="./New folder/eg-galaxy-a05s-sm-a057-sm-thumb-540889878.webp" alt="" class="img-fluid">
+                                <h2>samsung a05s</h2>
+                                <div class="price d-flex justify-content-around align-center">
+                                    <p>price</p>
+                                    <span>7000</span>
+                                </div> 
+                                <span class="btn1">
+                                <button id="addcount" class="btn3 ">Add To Cart</button>
+                                <button class="btn2 ">Buy Now</button>
+                                </span>
+                                
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-3">
+                        <div class="menu text-bg-dark rounded-5 my-3">
+                            <div class="imge">
+                                <img src="./New folder/Samsung Galaxy S24 Ultra 5G 256GB‏.webp" alt="" class="img-fluid">
+                                <h2>samsung s24 ultra</h2>
+                                <div class="price d-flex justify-content-around align-center">
+                                    <p>price</p>
+                                    <span>40000</span>
+                                </div> 
+                                <span class="btn1">
+                                <button id="addcount" class="btn3 ">Add To Cart</button>
+                                <button class="btn2 ">Buy Now</button>
+                                </span>
+                                
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-3">
+                        <div class="menu text-bg-dark rounded-5 my-3">
+                            <div class="imge">
+                                <img src="./New folder/samsung-galaxy-a55-Navypng.webp" alt="" class="img-fluid">
+                                <h2>samsung a55</h2>
+                                <div class="price d-flex justify-content-around align-center">
+                                    <p>price</p>
+                                    <span>10000</span>
+                                </div> 
+                                <span class="btn1">
+                                <button id="addcount" class="btn3 ">Add To Cart</button>
+                                <button class="btn2 ">Buy Now</button>
+                                </span>
+                                
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-3">
+                        <div class="menu text-bg-dark rounded-5 my-3">
+                            <div class="imge">
+                                <img src="./New folder/samsung-a73-8-256-awesome-mint-1-removebg-preview.png" alt="" class="img-fluid">
+                                <h2>samsung a73</h2>
+                                <div class="price d-flex justify-content-around align-center">
+                                    <p>price</p>
+                                    <span>12000</span>
+                                </div> 
+                                <span class="btn1">
+                                <button id="addcount" class="btn3 ">Add To Cart</button>
+                                <button class="btn2 ">Buy Now</button>
+                                </span>
+                                
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-3">
+                        <div class="menu text-bg-dark rounded-5 my-3">
+                            <div class="imge">
+                                <img src="./New folder/eg-galaxy-z-fold5-f946-sm-f946blbdmea-thumb-537223536.webp" alt="" class="img-fluid">
+                                <h2>samsung z</h2>
+                                <div class="price d-flex justify-content-around align-center">
+                                    <p>price</p>
+                                    <span>44000</span>
+                                </div> 
+                                <span class="btn1">
+                                <button id="addcount" class="btn3 ">Add To Cart</button>
+                                <button class="btn2 ">Buy Now</button>
+                                </span>
+                                
+                            </div>
+                        </div>
+                    </div>
+                    
+
+
+                    <div class="col-xl-12 text-bg-danger rounded-5">
+                        <div class="head" >
+                            <h2>Relme & Oppo</h2>
+                        </div>
+                    </div>
+                    <div class="col-xl-3">
+                        <div class="menu text-bg-dark rounded-5 my-3">
+                            <div class="imge">
+                                <img src="./New folder/oppo-a79-5g.jpg" alt="" class="img-fluid">
+                                <h2>oppo a79</h2>
+                                <div class="price d-flex justify-content-around align-center">
+                                    <p>price</p>
+                                    <span>12000</span>
+                                </div> 
+                                <span class="btn1">
+                                <button id="addcount" class="btn3 ">Add To Cart</button>
+                                <button class="btn2 ">Buy Now</button>
+                                </span>
+                                
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-3">
+                        <div class="menu text-bg-dark rounded-5 my-3">
+                            <div class="imge">
+                                <img src="./New folder/a57.png" alt="" class="img-fluid">
+                                <h2>oppo a57</h2>
+                                <div class="price d-flex justify-content-around align-center">
+                                    <p>price</p>
+                                    <span>9000</span>
+                                </div> 
+                                <span class="btn1">
+                                <button id="addcount" class="btn3 ">Add To Cart</button>
+                                <button class="btn2 ">Buy Now</button>
+                                </span>
+                                
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-3">
+                        <div class="menu text-bg-dark rounded-5 my-3">
+                            <div class="imge">
+                                <img src="./New folder/c55.webp" alt="" class="img-fluid">
+                                <h2>relme c55</h2>
+                                <div class="price d-flex justify-content-around align-center">
+                                    <p>price</p>
+                                    <span>7000</span>
+                                </div> 
+                                <span class="btn1">
+                                <button id="addcount" class="btn3 ">Add To Cart</button>
+                                <button class="btn2 ">Buy Now</button>
+                                </span>
+                                
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-3">
+                        <div class="menu text-bg-dark rounded-5 my-3">
+                            <div class="imge">
+                                <img src="./New folder/realme_c51.png" alt="" class="img-fluid">
+                                <h2>relme c51</h2>
+                                <div class="price d-flex justify-content-around align-center">
+                                    <p>price</p>
+                                    <span>6000</span>
+                                </div> 
+                                <span class="btn1">
+                                <button id="addcount" class="btn3 ">Add To Cart</button>
+                                <button class="btn2 ">Buy Now</button>
+                                </span>
+                                
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-3">
+                        <div class="menu text-bg-dark rounded-5 my-3">
+                            <div class="imge">
+                                <img src="./New folder/reno 12 f.webp" alt="" class="img-fluid">
+                                <h2>reno 12f</h2>
+                                <div class="price d-flex justify-content-around align-center">
+                                    <p>price</p>
+                                    <span>12000</span>
+                                </div> 
+                                <span class="btn1">
+                                <button id="addcount" class="btn3 ">Add To Cart</button>
+                                <button class="btn2 ">Buy Now</button>
+                                </span>
+                                
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-3">
+                        <div class="menu text-bg-dark rounded-5 my-3">
+                            <div class="imge">
+                                <img src="./New folder/relme 12.webp" alt="" class="img-fluid">
+                                <h2>relme 12</h2>
+                                <div class="price d-flex justify-content-around align-center">
+                                    <p>price</p>
+                                    <span>10000</span>
+                                </div> 
+                                <span class="btn1">
+                                <button id="addcount" class="btn3 ">Add To Cart</button>
+                                <button class="btn2 ">Buy Now</button>
+                                </span>
+                                
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-3">
+                        <div class="menu text-bg-dark rounded-5 my-3">
+                            <div class="imge">
+                                <img src="./New folder/realme_c51.png" alt="" class="img-fluid">
+                                <h2>relme c52</h2>
+                                <div class="price d-flex justify-content-around align-center">
+                                    <p>price</p>
+                                    <span>6000</span>
+                                </div> 
+                                <span class="btn1">
+                                <button id="addcount" class="btn3 ">Add To Cart</button>
+                                <button class="btn2 ">Buy Now</button>
+                                </span>
+                                
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-3">
+                        <div class="menu text-bg-dark rounded-5 my-3">
+                            <div class="imge">
+                                <img src="./New folder/relme 12.webp" alt="" class="img-fluid">
+                                <h2>relme 12</h2>
+                                <div class="price d-flex justify-content-around align-center">
+                                    <p>price</p>
+                                    <span>12000</span>
+                                </div> 
+                                <span class="btn1">
+                                <button id="addcount" class="btn3 ">Add To Cart</button>
+                                <button class="btn2 ">Buy Now</button>
+                                </span>
+                                
+                            </div>
+                        </div>
+                    </div>
+                    
+
+
+                    <div class="col-xl-12 text-bg-danger rounded-5">
+                        <div class="head" >
+                            <h2>xiaomi</h2>
+                        </div>
+                    </div>
+                    <div class="col-xl-3">
+                        <div class="menu text-bg-dark rounded-5 my-3">
+                            <div class="imge">
+                                <img src="./New folder/xiaomi 13 pro.png" alt="" class="img-fluid">
+                                <h2>xiaomi 13 pro</h2>
+                                <div class="price d-flex justify-content-around align-center">
+                                    <p>price</p>
+                                    <span>12000</span>
+                                </div> 
+                                <span class="btn1">
+                                <button id="addcount" class="btn3 ">Add To Cart</button>
+                                <button class="btn2 ">Buy Now</button>
+                                </span>
+                                
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-3">
+                        <div class="menu text-bg-dark rounded-5 my-3">
+                            <div class="imge">
+                                <img src="./New folder/x 14.webp" alt="" class="img-fluid">
+                                <h2>xiaomi 14</h2>
+                                <div class="price d-flex justify-content-around align-center">
+                                    <p>price</p>
+                                    <span>20000</span>
+                                </div> 
+                                <span class="btn1">
+                                <button id="addcount" class="btn3 ">Add To Cart</button>
+                                <button class="btn2 ">Buy Now</button>
+                                </span>
+                                
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-3">
+                        <div class="menu text-bg-dark rounded-5 my-3">
+                            <div class="imge">
+                                <img src="./New folder/xiaomi-11-lite-5g-ne-9_0481fe90-0e47-42bb-a726-8c7f2ed7b1bc_1024x1024.webp" alt="" class="img-fluid">
+                                <h2>xiaomi 11 lite</h2>
+                                <div class="price d-flex justify-content-around align-center">
+                                    <p>price</p>
+                                    <span>11000</span>
+                                </div> 
+                                <span class="btn1">
+                                <button id="addcount" class="btn3 ">Add To Cart</button>
+                                <button class="btn2 ">Buy Now</button>
+                                </span>
+                                
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-3">
+                        <div class="menu text-bg-dark rounded-5 my-3">
+                            <div class="imge">
+                                <img src="./New folder/xiaomi-redmi-13-8gb-128gb.png" alt="" class="img-fluid">
+                                <h2>xiaomi redmi 13</h2>
+                                <div class="price d-flex justify-content-around align-center">
+                                    <p>price</p>
+                                    <span>15000</span>
+                                </div> 
+                                <span class="btn1">
+                                <button id="addcount" class="btn3 ">Add To Cart</button>
+                                <button class="btn2 ">Buy Now</button>
+                                </span>
+                                
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-3">
+                        <div class="menu text-bg-dark rounded-5 my-3">
+                            <div class="imge">
+                                <img src="./New folder/xiaomi-redmi-13c.webp" alt="" class="img-fluid">
+                                <h2>redmi 13c</h2>
+                                <div class="price d-flex justify-content-around align-center">
+                                    <p>price</p>
+                                    <span>10000</span>
+                                </div> 
+                                <span class="btn1">
+                                <button id="addcount" class="btn3 ">Add To Cart</button>
+                                <button class="btn2 ">Buy Now</button>
+                                </span>
+                                
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-3">
+                        <div class="menu text-bg-dark rounded-5 my-3">
+                            <div class="imge">
+                                <img src="./New folder/Xiaomi 12T Pro‏.png" alt="" class="img-fluid">
+                                <h2>Xiaomi 12T Pro</h2>
+                                <div class="price d-flex justify-content-around align-center">
+                                    <p>price</p>
+                                    <span>18000</span>
+                                </div> 
+                                <span class="btn1">
+                                <button id="addcount" class="btn3 ">Add To Cart</button>
+                                <button class="btn2 ">Buy Now</button>
+                                </span>
+                                
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-3">
+                        <div class="menu text-bg-dark rounded-5 my-3">
+                            <div class="imge">
+                                <img src="./New folder/Black-Shark-2-470x470.png" alt="" class="img-fluid">
+                                <h2>Black-Shark</h2>
+                                <div class="price d-flex justify-content-around align-center">
+                                    <p>price</p>
+                                    <span>30000</span>
+                                </div> 
+                                <span class="btn1">
+                                <button id="addcount" class="btn3 ">Add To Cart</button>
+                                <button class="btn2 ">Buy Now</button>
+                                </span>
+                                
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-3">
+                        <div class="menu text-bg-dark rounded-5 my-3">
+                            <div class="imge">
+                                <img src="./New folder/xiaomi 13 pro.png" alt="" class="img-fluid">
+                                <h2>xiaomi 13 pro</h2>
+                                <div class="price d-flex justify-content-around align-center">
+                                    <p>price</p>
+                                    <span>15000</span>
+                                </div> 
+                                <span class="btn1">
+                                <button id="addcount" class="btn3 ">Add To Cart</button>
+                                <button class="btn2 ">Buy Now</button>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    
+
+                </div>
+            </div> 
+        </div>
+        <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab" tabindex="0">
+            <div class="container text-center ">
+                <div class="row">
+                    <div class="col-xl-3">
+                        <div class="menu text-bg-dark rounded-5 my-3">
+                            <div class="imge">
+                                <img src="./tablet/9x.png" alt="" class="img-fluid">
+                                <h2>tablet 9x</h2>
+                                <div class="price d-flex justify-content-around align-center">
+                                    <p>price</p>
+                                    <span>10000</span>
+                                </div> 
+                                <span class="btn1">
+                                <button id="addcount" class="btn3 ">Add To Cart</button>
+                                <button class="btn2 ">Buy Now</button>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-3">
+                        <div class="menu text-bg-dark rounded-5 my-3">
+                            <div class="imge">
+                                <img src="./tablet/a9j.webp" alt="" class="img-fluid">
+                                <h2>tablet a9</h2>
+                                <div class="price d-flex justify-content-around align-center">
+                                    <p>price</p>
+                                    <span>12000</span>
+                                </div> 
+                                <span class="btn1">
+                                <button id="addcount" class="btn3 ">Add To Cart</button>
+                                <button class="btn2 ">Buy Now</button>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-3">
+                        <div class="menu text-bg-dark rounded-5 my-3">
+                            <div class="imge">
+                                <img src="./tablet/Apple-iPad-Pro-M2-Tablet-with-FaceTime-12.9-Inch-Liquid-Retina-256GB-Wi-FiCellular_IPad_4229_2-2 (1).png" alt="" class="img-fluid">
+                                <h2>iPad Pro M2 </h2>
+                                <div class="price d-flex justify-content-around align-center">
+                                    <p>price</p>
+                                    <span>30000</span>
+                                </div> 
+                                <span class="btn1">
+                                <button id="addcount" class="btn3 ">Add To Cart</button>
+                                <button class="btn2 ">Buy Now</button>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-3">
+                        <div class="menu text-bg-dark rounded-5 my-3">
+                            <div class="imge">
+                                <img src="./tablet/اطفال.webp" alt="" class="img-fluid">
+                                <h2>tablet اطفال </h2>
+                                <div class="price d-flex justify-content-around align-center">
+                                    <p>price</p>
+                                    <span>12000</span>
+                                </div> 
+                                <span class="btn1">
+                                <button id="addcount" class="btn3 ">Add To Cart</button>
+                                <button class="btn2 ">Buy Now</button>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-3">
+                        <div class="menu text-bg-dark rounded-5 my-3">
+                            <div class="imge">
+                                <img src="./tablet/f10.png" alt="" class="img-fluid">
+                                <h2>tablet f10</h2>
+                                <div class="price d-flex justify-content-around align-center">
+                                    <p>price</p>
+                                    <span>8000</span>
+                                </div> 
+                                <span class="btn1">
+                                <button id="addcount" class="btn3 ">Add To Cart</button>
+                                <button class="btn2 ">Buy Now</button>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-3">
+                        <div class="menu text-bg-dark rounded-5 my-3">
+                            <div class="imge">
+                                <img src="./tablet/Huawei-MatePad-(1).webp" alt="" class="img-fluid">
+                                <h2>tablet Huawei MatePad</h2>
+                                <div class="price d-flex justify-content-around align-center">
+                                    <p>price</p>
+                                    <span>15000</span>
+                                </div> 
+                                <span class="btn1">
+                                <button id="addcount" class="btn3 ">Add To Cart</button>
+                                <button class="btn2 ">Buy Now</button>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-3">
+                        <div class="menu text-bg-dark rounded-5 my-3">
+                            <div class="imge">
+                                <img src="./tablet/l m12.webp" alt="" class="img-fluid">
+                                <h2>tablet lenovo m12</h2>
+                                <div class="price d-flex justify-content-around align-center">
+                                    <p>price</p>
+                                    <span>10000</span>
+                                </div> 
+                                <span class="btn1">
+                                <button id="addcount" class="btn3 ">Add To Cart</button>
+                                <button class="btn2 ">Buy Now</button>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-3">
+                        <div class="menu text-bg-dark rounded-5 my-3">
+                            <div class="imge">
+                                <img src="./tablet/Lenovo-P12-(1).webp" alt="" class="img-fluid">
+                                <h2>tablet lenovo p12</h2>
+                                <div class="price d-flex justify-content-around align-center">
+                                    <p>price</p>
+                                    <span>12000</span>
+                                </div> 
+                                <span class="btn1">
+                                <button id="addcount" class="btn3 ">Add To Cart</button>
+                                <button class="btn2 ">Buy Now</button>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-3">
+                        <div class="menu text-bg-dark rounded-5 my-3">
+                            <div class="imge">
+                                <img src="./tablet/P30T_2.webp" alt="" class="img-fluid">
+                                <h2>tablet P30T</h2>
+                                <div class="price d-flex justify-content-around align-center">
+                                    <p>price</p>
+                                    <span>14000</span>
+                                </div> 
+                                <span class="btn1">
+                                <button id="addcount" class="btn3 ">Add To Cart</button>
+                                <button class="btn2 ">Buy Now</button>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-3">
+                        <div class="menu text-bg-dark rounded-5 my-3">
+                            <div class="imge">
+                                <img src="./tablet/Lenovo-Tab-M10-Plus-3rd-Gen-10-Tablet-128GB-Storage-4GB-Memory-Android-12-FHD-Display_6d20d86e-e339-4dea-a97d-788dbf71f08c.50da7e377a5410315db7b2430fc13a86.webp" alt="" class="img-fluid">
+                                <h2>Lenovo Tab M10+</h2>
+                                <div class="price d-flex justify-content-around align-center">
+                                    <p>price</p>
+                                    <span>12000</span>
+                                </div> 
+                                <span class="btn1">
+                                <button id="addcount" class="btn3 ">Add To Cart</button>
+                                <button class="btn2 ">Buy Now</button>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-3">
+                        <div class="menu text-bg-dark rounded-5 my-3">
+                            <div class="imge">
+                                <img src="./tablet/P30T_2.webp" alt="" class="img-fluid">
+                                <h2>tablet P30T</h2>
+                                <div class="price d-flex justify-content-around align-center">
+                                    <p>price</p>
+                                    <span>18000</span>
+                                </div> 
+                                <span class="btn1">
+                                <button id="addcount" class="btn3 ">Add To Cart</button>
+                                <button class="btn2 ">Buy Now</button>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-3">
+                        <div class="menu text-bg-dark rounded-5 my-3">
+                            <div class="imge">
+                                <img src="./tablet/x8.webp" alt="" class="img-fluid">
+                                <h2>tablet x8</h2>
+                                <div class="price d-flex justify-content-around align-center">
+                                    <p>price</p>
+                                    <span>12000</span>
+                                </div> 
+                                <span class="btn1">
+                                <button id="addcount" class="btn3 ">Add To Cart</button>
+                                <button class="btn2 ">Buy Now</button>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+        <div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab" tabindex="0">
+            <div class="container text-center ">
+                <div class="row">
+                    <div class="col-xl-3">
+                        <div class="menu text-bg-dark rounded-5 my-3">
+                            <div class="imge">
+                                <img src="./access/LVLMAGCLARA14-SCL_copy_6IBaBEV-smart_crop-c0-5__0-5-750x750.webp" alt="" class="img-fluid">
+                                <h2>iphone 13 جراب</h2>
+                                <div class="price d-flex justify-content-around align-center">
+                                    <p>price</p>
+                                    <span>12000</span>
+                                </div> 
+                                <span class="btn1">
+                                <button id="addcount" class="btn3 ">Add To Cart</button>
+                                <button class="btn2 ">Buy Now</button>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-3">
+                        <div class="menu text-bg-dark rounded-5 my-3">
+                            <div class="imge">
+                                <img src="./access/j0JwNlVsD19zvWTi7XCZaNNcQizRUjAbzsqe9g8B.webp" alt="" class="img-fluid">
+                                <h2>iphone 15 pro جراب</h2>
+                                <div class="price d-flex justify-content-around align-center">
+                                    <p>price</p>
+                                    <span>12000</span>
+                                </div> 
+                                <span class="btn1">
+                                <button id="addcount" class="btn3 ">Add To Cart</button>
+                                <button class="btn2 ">Buy Now</button>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-3">
+                        <div class="menu text-bg-dark rounded-5 my-3">
+                            <div class="imge">
+                                <img src="./access/_lvlmagkayo14p-mcpk_kayo_magsafe_matte_back_case_pink_iphone_14_pro_.png" alt="" class="img-fluid">
+                                <h2>iphone 14 pro max جراب</h2>
+                                <div class="price d-flex justify-content-around align-center">
+                                    <p>price</p>
+                                    <span>12000</span>
+                                </div> 
+                                <span class="btn1">
+                                <button id="addcount" class="btn3 ">Add To Cart</button>
+                                <button class="btn2 ">Buy Now</button>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-3">
+                        <div class="menu text-bg-dark rounded-5 my-3">
+                            <div class="imge">
+                                <img src="./access/6_1__1.png" alt="" class="img-fluid">
+                                <h2>airpods pro2 جراب</h2>
+                                <div class="price d-flex justify-content-around align-center">
+                                    <p>price</p>
+                                    <span>12000</span>
+                                </div> 
+                                <span class="btn1">
+                                <button id="addcount" class="btn3 ">Add To Cart</button>
+                                <button class="btn2 ">Buy Now</button>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-3">
+                        <div class="menu text-bg-dark rounded-5 my-3">
+                            <div class="imge">
+                                <img src="./access/5_1_.png" alt="" class="img-fluid">
+                                <h2>anker p2i جراب</h2>
+                                <div class="price d-flex justify-content-around align-center">
+                                    <p>price</p>
+                                    <span>12000</span>
+                                </div> 
+                                <span class="btn1">
+                                <button id="addcount" class="btn3 ">Add To Cart</button>
+                                <button class="btn2 ">Buy Now</button>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-3">
+                        <div class="menu text-bg-dark rounded-5 my-3">
+                            <div class="imge">
+                                <img src="./access/4c4478e0-da5f-4d61-8c32-a1e2e6022599.png" alt="" class="img-fluid">
+                                <h2>oppo a3 جراب</h2>
+                                <div class="price d-flex justify-content-around align-center">
+                                    <p>price</p>
+                                    <span>12000</span>
+                                </div> 
+                                <span class="btn1">
+                                <button id="addcount" class="btn3 ">Add To Cart</button>
+                                <button class="btn2 ">Buy Now</button>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-3">
+                        <div class="menu text-bg-dark rounded-5 my-3">
+                            <div class="imge">
+                                <img src="./access/4c4478e0-da5f-4d61-8c32-a1e2e6022599.png" alt="" class="img-fluid">
+                                <h2>oppo a3 جراب</h2>
+                                <div class="price d-flex justify-content-around align-center">
+                                    <p>price</p>
+                                    <span>12000</span>
+                                </div> 
+                                <span class="btn1">
+                                <button id="addcount" class="btn3 ">Add To Cart</button>
+                                <button class="btn2 ">Buy Now</button>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-3">
+                        <div class="menu text-bg-dark rounded-5 my-3">
+                            <div class="imge">
+                                <img src="./access/4_3_3.png" alt="" class="img-fluid">
+                                <h2>iphone 13 pro جراب</h2>
+                                <div class="price d-flex justify-content-around align-center">
+                                    <p>price</p>
+                                    <span>12000</span>
+                                </div> 
+                                <span class="btn1">
+                                <button id="addcount" class="btn3 ">Add To Cart</button>
+                                <button class="btn2 ">Buy Now</button>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-3">
+                        <div class="menu text-bg-dark rounded-5 my-3">
+                            <div class="imge">
+                                <img src="./access/4_1__1.png" alt="" class="img-fluid">
+                                <h2>airpods pro2 جراب</h2>
+                                <div class="price d-flex justify-content-around align-center">
+                                    <p>price</p>
+                                    <span>12000</span>
+                                </div> 
+                                <span class="btn1">
+                                <button id="addcount" class="btn3 ">Add To Cart</button>
+                                <button class="btn2 ">Buy Now</button>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-3">
+                        <div class="menu text-bg-dark rounded-5 my-3">
+                            <div class="imge">
+                                <img src="./access/2hFTUK3fWpT1SsU3KFfUq5GCSl7601qa9ersu5kA.webp" alt="" class="img-fluid">
+                                <h2>airpods pro جراب</h2>
+                                <div class="price d-flex justify-content-around align-center">
+                                    <p>price</p>
+                                    <span>12000</span>
+                                </div> 
+                                <span class="btn1">
+                                <button id="addcount" class="btn3 ">Add To Cart</button>
+                                <button class="btn2 ">Buy Now</button>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-3">
+                        <div class="menu text-bg-dark rounded-5 my-3">
+                            <div class="imge">
+                                <img src="./access/23867fd0-e17c-492f-ae33-cf523eae449e-thumbnail-1000x1000.png" alt="" class="img-fluid">
+                                <h2>iphone 12 جراب</h2>
+                                <div class="price d-flex justify-content-around align-center">
+                                    <p>price</p>
+                                    <span>12000</span>
+                                </div> 
+                                <span class="btn1">
+                                <button id="addcount" class="btn3 ">Add To Cart</button>
+                                <button class="btn2 ">Buy Now</button>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-3">
+                        <div class="menu text-bg-dark rounded-5 my-3">
+                            <div class="imge">
+                                <img src="./access/19_3_4.png" alt="" class="img-fluid">
+                                <h2>iphone 12 pro جراب</h2>
+                                <div class="price d-flex justify-content-around align-center">
+                                    <p>price</p>
+                                    <span>12000</span>
+                                </div> 
+                                <span class="btn1">
+                                <button id="addcount" class="btn3 ">Add To Cart</button>
+                                <button class="btn2 ">Buy Now</button>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+
+        <div class="tab-pane fade" id="pills-disabled" role="tabpanel" aria-labelledby="pills-disabled-tab" tabindex="0">
+            <div class="container text-center ">
+                <div class="row">
+                    <div class="col-xl-3">
+                        <div class="menu text-bg-dark rounded-5 my-3">
+                            <div class="imge">
+                                <img src="./smart/1684103020.x8-ultra-max-2.png" alt="" class="img-fluid">
+                                <h2>x8 ultra-max</h2>
+                                <div class="price d-flex justify-content-around align-center">
+                                    <p>price</p>
+                                    <span>1000</span>
+                                </div> 
+                                <span class="btn1">
+                                <button id="addcount" class="btn3 ">Add To Cart</button>
+                                <button class="btn2 ">Buy Now</button>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-3">
+                        <div class="menu text-bg-dark rounded-5 my-3">
+                            <div class="imge">
+                                <img src="./smart/2r.webp" alt="" class="img-fluid">
+                                <h2>arimo 2r</h2>
+                                <div class="price d-flex justify-content-around align-center">
+                                    <p>price</p>
+                                    <span>1500</span>
+                                </div> 
+                                <span class="btn1">
+                                <button id="addcount" class="btn3 ">Add To Cart</button>
+                                <button class="btn2 ">Buy Now</button>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-3">
+                        <div class="menu text-bg-dark rounded-5 my-3">
+                            <div class="imge">
+                                <img src="./smart/407606-smartwatches-apple-watch-series-8-gps-45mm-10032324.png" alt="" class="img-fluid">
+                                <h2>apple watch series8</h2>
+                                <div class="price d-flex justify-content-around align-center">
+                                    <p>price</p>
+                                    <span>12000</span>
+                                </div> 
+                                <span class="btn1">
+                                <button id="addcount" class="btn3 ">Add To Cart</button>
+                                <button class="btn2 ">Buy Now</button>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-3">
+                        <div class="menu text-bg-dark rounded-5 my-3">
+                            <div class="imge">
+                                <img src="./smart/411818-smartwatches-apple-watch-ultra-2-gps-cellular-49mm-10036649.webp" alt="" class="img-fluid">
+                                <h2>apple watch ultra2</h2>
+                                <div class="price d-flex justify-content-around align-center">
+                                    <p>price</p>
+                                    <span>10000</span>
+                                </div> 
+                                <span class="btn1">
+                                <button id="addcount" class="btn3 ">Add To Cart</button>
+                                <button class="btn2 ">Buy Now</button>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-3">
+                        <div class="menu text-bg-dark rounded-5 my-3">
+                            <div class="imge">
+                                <img src="./smart/band 2.png" alt="" class="img-fluid">
+                                <h2>band 2</h2>
+                                <div class="price d-flex justify-content-around align-center">
+                                    <p>price</p>
+                                    <span>2000</span>
+                                </div> 
+                                <span class="btn1">
+                                <button id="addcount" class="btn3 ">Add To Cart</button>
+                                <button class="btn2 ">Buy Now</button>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-3">
+                        <div class="menu text-bg-dark rounded-5 my-3">
+                            <div class="imge">
+                                <img src="./smart/band 8.png" alt="" class="img-fluid">
+                                <h2>band 8</h2>
+                                <div class="price d-flex justify-content-around align-center">
+                                    <p>price</p>
+                                    <span>1000</span>
+                                </div> 
+                                <span class="btn1">
+                                <button id="addcount" class="btn3 ">Add To Cart</button>
+                                <button class="btn2 ">Buy Now</button>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-3">
+                        <div class="menu text-bg-dark rounded-5 my-3">
+                            <div class="imge">
+                                <img src="./smart/dt-ultra-removebg-preview-1000x1000.png" alt="" class="img-fluid">
+                                <h2>x8 ultra+</h2>
+                                <div class="price d-flex justify-content-around align-center">
+                                    <p>price</p>
+                                    <span>800</span>
+                                </div> 
+                                <span class="btn1">
+                                <button id="addcount" class="btn3 ">Add To Cart</button>
+                                <button class="btn2 ">Buy Now</button>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-3">
+                        <div class="menu text-bg-dark rounded-5 my-3">
+                            <div class="imge">
+                                <img src="./smart/Oraimo-Watch-3-Lite-1.webp" alt="" class="img-fluid">
+                                <h2>Oraimo Watch 3Lite</h2>
+                                <div class="price d-flex justify-content-around align-center">
+                                    <p>price</p>
+                                    <span>1000</span>
+                                </div> 
+                                <span class="btn1">
+                                <button id="addcount" class="btn3 ">Add To Cart</button>
+                                <button class="btn2 ">Buy Now</button>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-3">
+                        <div class="menu text-bg-dark rounded-5 my-3">
+                            <div class="imge">
+                                <img src="./smart/samsung-galaxy-watch-6-classic-47mm-silver-1-800x800.webp" alt="" class="img-fluid">
+                                <h2>samsung galaxy watch-6</h2>
+                                <div class="price d-flex justify-content-around align-center">
+                                    <p>price</p>
+                                    <span>2000</span>
+                                </div> 
+                                <span class="btn1">
+                                <button id="addcount" class="btn3 ">Add To Cart</button>
+                                <button class="btn2 ">Buy Now</button>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-3">
+                        <div class="menu text-bg-dark rounded-5 my-3">
+                            <div class="imge">
+                                <img src="./smart/smart-watch-t500-plus.png" alt="" class="img-fluid">
+                                <h2>t500-plus</h2>
+                                <div class="price d-flex justify-content-around align-center">
+                                    <p>price</p>
+                                    <span>400</span>
+                                </div> 
+                                <span class="btn1">
+                                <button id="addcount" class="btn3 ">Add To Cart</button>
+                                <button class="btn2 ">Buy Now</button>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-3">
+                        <div class="menu text-bg-dark rounded-5 my-3">
+                            <div class="imge">
+                                <img src="./smart/x 3.webp" alt="" class="img-fluid">
+                                <h2>xiaomi 3</h2>
+                                <div class="price d-flex justify-content-around align-center">
+                                    <p>price</p>
+                                    <span>2000</span>
+                                </div> 
+                                <span class="btn1">
+                                <button id="addcount" class="btn3 ">Add To Cart</button>
+                                <button class="btn2 ">Buy Now</button>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-3">
+                        <div class="menu text-bg-dark rounded-5 my-3">
+                            <div class="imge">
+                                <img src="./smart/xiaomi-mi-watch-s1-0_1000x.webp" alt="" class="img-fluid">
+                                <h2>mi watch s1</h2>
+                                <div class="price d-flex justify-content-around align-center">
+                                    <p>price</p>
+                                    <span>5000</span>
+                                </div> 
+                                <span class="btn1">
+                                <button id="addcount" class="btn3 ">Add To Cart</button>
+                                <button class="btn2 ">Buy Now</button>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        </div>
+        <div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab" tabindex="0">
+        </div>
+        <div class="tab-pane fade" id="pills-disabled" role="tabpanel" aria-labelledby="pills-disabled-tab" tabindex="0">...</div>
+    </div>
+    
+<script src="js/main.js"></script>
+    
+</body>
+</html>
